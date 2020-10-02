@@ -15,8 +15,6 @@
                 <?php else : ?>
                     <option value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
                 <?php endif; ?>
-
-                <option value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
             <?php endforeach; ?>
         </select>
     </div>

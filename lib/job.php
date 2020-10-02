@@ -101,14 +101,14 @@
         //Update Job
         public function update($id, $data){
             $this->db->query("UPDATE jobs SET
-                                    category_id = :category_id,
-                                    job_title = :job_title,
+                                    category_id = :category_id, 
+                                    job_title = :job_title, 
                                     company = :company,
                                     description = :description,
                                     location = :location,                          
                                     salary = :salary,
                                     contact_user = :contact_user,
-                                    contact_email = :contact_email,
+                                    contact_email = :contact_email
                                     WHERE id = $id");
             //Bind Data
             $this->db->bind(':category_id', $data['category_id']);

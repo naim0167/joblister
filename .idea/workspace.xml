@@ -23,14 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7e376b7-0c27-4bee-b04a-1d6b15c482bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/job-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job.php" beforeDir="false" afterPath="$PROJECT_DIR$/job.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/job.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/job.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/job-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/job-single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/job-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/job-edit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601611927182</updated>
       <workItem from="1601611928268" duration="17744000" />
-      <workItem from="1601652555473" duration="2405000" />
+      <workItem from="1601652555473" duration="4420000" />
     </task>
     <servers />
   </component>
