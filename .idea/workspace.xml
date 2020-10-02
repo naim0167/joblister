@@ -34,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601611927182</updated>
-      <workItem from="1601611928268" duration="4565000" />
+      <workItem from="1601611928268" duration="10178000" />
     </task>
     <servers />
   </component>
@@ -46,17 +46,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="255" key="IDE.errors.dialog/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601612260498" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601615861111">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601623960017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601615861111" />
-    <state x="825" y="317" key="SettingsEditor" timestamp="1601612562150">
+    <state x="794" y="443" key="NewPhpFileDialog/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601623960017" />
+    <state x="825" y="317" key="SettingsEditor" timestamp="1601627833194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="825" y="317" key="SettingsEditor/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601612562150" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601612032863">
+    <state x="825" y="317" key="SettingsEditor/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601627833194" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1601627576314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601612032863" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601627576314" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601626418612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601626418612" />
   </component>
 </project>

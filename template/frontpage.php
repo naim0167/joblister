@@ -1,46 +1,30 @@
 <?php include 'inc/header.php'; ?>
     <div class="jumbotron">
-        <h1 class="display-3">Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        <h1 class="display-3">Find A Job</h1>
+        <form method="GET" action="index.php">
+            <select class="form-control" name="category" id="">
+                <option value="0">Choose Categories</option>
+                <?php foreach($categories as $category): ?>
+                    <option value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
+                <?php endforeach; ?>
+            </select>
+            <br>
+            <input type="submit" class="btn btn-lg btn-success" value="FIND">
+        </form>
     </div>
+    <h3><?php echo $title; ?></h3>
 
+    <?php foreach($jobs as $job): ?>
     <div class="row marketing">
         <div class="col-md-10">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <h4><?php echo $job->job_title ?></h4>
+            <p><?php echo $job->description ?></p>
         </div>
         <div class="col-md-2">
-            <a class="btn btn-warning" href="#">View</a>
+            <a class="btn btn-warning" href="job.php?id=<?php echo $job->id ?>">View</a>
         </div>
     </div>
-    <div class="row marketing">
-        <div class="col-md-10">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
-        <div class="col-md-2">
-            <a class="btn btn-warning" href="#">View</a>
-        </div>
-    </div>
-    <div class="row marketing">
-        <div class="col-md-10">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
-        <div class="col-md-2">
-            <a class="btn btn-warning" href="#">View</a>
-        </div>
-    </div>
-    <div class="row marketing">
-        <div class="col-md-10">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
-        <div class="col-md-2">
-            <a class="btn btn-warning" href="#">View</a>
-        </div>
-    </div>
+    <?php endforeach; ?>
 
 <?php include 'inc/footer.php';?>
 
