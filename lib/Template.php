@@ -3,6 +3,7 @@
 class Template{
     //path
     protected $template;
+
     //vars Passed In
     protected $vars = array();
 
@@ -15,6 +16,7 @@ class Template{
     }
     public function __set($key, $value){
         return $this->vars[$key] = $value;
+
     }
     public function __toString(){
         extract($this->vars);
