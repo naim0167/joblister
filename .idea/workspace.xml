@@ -3,8 +3,35 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7e376b7-0c27-4bee-b04a-1d6b15c482bc" name="Default Changelist" comment="" />
+    <list default="true" id="b7e376b7-0c27-4bee-b04a-1d6b15c482bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/job-edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job.php" beforeDir="false" afterPath="$PROJECT_DIR$/job.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/job.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/job.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/job-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/job-single.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +39,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iJ3ZxqKVzeXKOGFUsfttJcF5Vv" />
   <component name="ProjectViewState">
@@ -26,6 +56,11 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\joblister\template" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,22 +69,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601611927182</updated>
-      <workItem from="1601611928268" duration="16121000" />
+      <workItem from="1601611928268" duration="17744000" />
+      <workItem from="1601652555473" duration="2405000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1601612260498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="255" key="IDE.errors.dialog/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601612260498" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601632852309">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601656796283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601632852309" />
+    <state x="794" y="443" key="NewPhpFileDialog/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601656796283" />
     <state x="825" y="317" key="SettingsEditor" timestamp="1601627833194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -58,6 +105,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="253" width="585" height="534" key="find.popup/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601634808669" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601657660657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601657660657" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601632271165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
